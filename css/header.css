@@ -1,0 +1,58 @@
+header nav {
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header nav div{
+	display: flex;
+}
+
+header nav h4{
+	line-height: 100px;
+	margin-right: 20px;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 40px 40px;
+}
+
+header nav h4 span{
+	visibility: hidden;
+}
+
+header nav ul{
+	display: flex;
+	width: 430px;
+	justify-content: space-between;
+	align-items: center;
+	float: right;
+}
+
+header nav li a{
+	color: #fff;
+	opacity: 0.9;
+	font-size: 1.375em;
+}
+
+header nav .login{
+	display: flex;
+	height: 48px;
+	width: 48px;
+	float: right;
+}
+
+section{
+	font-family: 'Merriweather', serif;
+}
+
+
+@media (max-width: 480px) {
+	header nav h4{
+		display: none;
+	}
+	header nav ul{
+		margin: 0 40px;
+	}
+}

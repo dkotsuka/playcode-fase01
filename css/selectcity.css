@@ -1,0 +1,66 @@
+.select-city{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.select-city *{
+	text-align: center;
+}
+
+.select-city h2{
+	text-align: center;
+	font-size: 2.250em;
+	color: #4c4c51;
+}
+
+.select-city p{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 1.375em;
+	color: #88939e;
+	opacity: 0.9;
+}
+
+.select-city div .menu {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+.select-city div .menu select{
+	font-size: 1.375em;
+	color: #88939e;
+	opacity: 0.9; 
+	height: 60px;
+	border-color: #dbdbdb;
+	border-width: 2px;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
+	border-bottom: none;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.select-city div .menu button{
+	height: 60px;
+	background-color: #fd6e74;
+	border: none;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+.select-city div .menu button span{
+	color: #ffffff;
+	opacity: 0.9;
+	font-size: 22px;
+}
+
+@media (max-width: 768px) {
+	.select-city div .menu {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+	

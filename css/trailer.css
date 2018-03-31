@@ -1,0 +1,35 @@
+.trailer {
+	margin-top: -200px;
+}
+
+.trailer .columns{
+	align-items: center;
+}
+
+.trailer .presentation{
+	padding-right: 50px;
+}
+
+.trailer .presentation h2{
+	font-size: 2.250em;
+	line-height: 1em;
+	margin-bottom: 19px;
+	color: #4c4c51
+}
+
+.trailer .presentation p{
+	font-size: 1.375em;
+	opacity: 0.9;
+	color: #88939e;
+}
+
+@media (max-width: 768px) {
+	.trailer .columns{
+		display: flex;
+		flex-direction: column-reverse !important;
+	}
+
+	.trailer .presentation{
+	padding-right: 20px;
+}
+}

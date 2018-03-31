@@ -1,0 +1,39 @@
+.numbers{
+	margin-top: 140px;
+	margin-bottom: 140px;
+}
+
+.numbers ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.numbers li{
+	text-align: center;
+}
+
+.numbers ul h3{
+	font-size: 3em;
+	line-height: 1em;
+	font-family: 'Merriweather', serif;
+	color: #f94d59;
+	opacity: 0.9;
+}
+
+.numbers ul small{
+	font-size: 1.375em;
+	color: #88939e;
+	opacity: 0.9;
+}
+
+
+@media (max-width: 768px) {
+	.numbers{
+		margin: 50px;
+	}
+	.numbers ul{
+		display: flex;
+		flex-direction: column;
+	}
+}
